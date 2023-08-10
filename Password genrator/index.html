@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Genrator</title> 
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body> 
+    <div class="tb">  
+        <h1>Password Genrator</h1>
+        <div class="inputbox"><input type="text" disabled id="display"><i class="fa-solid fa-copy"></i></div>
+        <input type="range" min="1" max="30" value="8" id="slider"> 
+       <span>Password length <h4 id="sv">8</h4></span> 
+        <span>Include Lowercase letters <input type="checkbox" name="" id="l"></span> 
+        <span>Include Uppercase letters <input type="checkbox" name="" id="u"></span>  
+        <span>Include Special character <input type="checkbox" name="" id="*"></span>  
+        <span>Include Numbers <input type="checkbox" name="" id="8"></span>   
+        <Button id="b">Genrate the Password</Button>
+    </div>  
+    <script src="https://kit.fontawesome.com/898ed873ca.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
