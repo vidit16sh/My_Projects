@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Store</title>
+    <link rel="stylesheet" href="css/store.css">
+</head>
+<body>
+    <header>
+        <table style="background-color: #232F3E;width: 100%;">
+          <tr>
+            <td rowspan="2" width="25%">
+              <center><img src="logo4.png" alt="logo" width="80%">
+            </td>
+            <td colspan="5" width="75%"><input type="text" placeholder="Search your item here" style="width: 95%;"></td>
+          </tr>
+          <tr>
+            <td align="center">
+              <font face="Corbel" color="white" size="5"><a href="book_index.html" style="text-decoration: none;color:white;">HOME</a>
+              </font>
+            </td>
+            <td align="center">
+              <font face="Corbel" color="white" size="5"><a href="store.html" style="text-decoration: none;color:darkred;">STORE</a></font>
+            </td>
+            <td align="center">
+              <font face="Corbel" color="white" size="5"><a href="cart.html" style="text-decoration: none;color: white; ">CART</a>
+              </font>
+            </td>
+            <td align="center">
+              <font face="Corbel" color="white" size="5"><a href="sign_in.html" style="text-decoration: none;color: white;">SIGN UP</a>
+              </font>
+            </td>
+            <td align="center">
+              <font face="Corbel" color="white" size="5"><a href="pay.html" style="text-decoration: none;color: white;">PAYMENT</a>
+              </font>
+            </td>
+          </tr>
+        </table>
+      </header>
+<div class="container">
+    <div class="sidenav">
+        <h3>Delivery Day</h3>
+        <li><input type="checkbox">Get it Today</li>
+        <li><input type="checkbox">Get it by tomorrow </li>
+        <li><input type="checkbox">Get it in 2 days</li>
+        <h3>Prime Reading Eligibility</h3>
+        <li><input type="checkbox">Prime Reading Eligibility</li>
+        <h3>Category</h3>
+                <li>Personal Transformation</li>
+                <li>Biographies & Autobiographies</li>
+                <li>Analysis & Strategy</li>
+                <li>Healthy Living & Wellness</li>
+                <li>Classic Fiction</li>
+                <li>Sciences, Technology & Medicine</li>
+        <h3>Customer Review</h3>
+        <li>⭐⭐⭐⭐⭐ & up</li>
+        <li>⭐⭐⭐⭐ & up</li>
+        <li>⭐⭐⭐ & up</li>
+        <li>⭐⭐ & up</li>
+        <li>⭐ & up</li>
+        <h3>Price</h3>
+        <li>Under ₹100</li>
+        <li>₹100 - ₹200</li>
+        <li>₹200 - ₹500</li>
+        <li>₹500 = ₹1000</li>
+        <li>Over ₹1000</li>
+        <table>
+            <tr>
+                <td><input type="number" name="range" placeholder="Max" style="margin-left: 0px;"></td>
+                <td><input type="number" name="range" placeholder="Min"></td>
+                <td><button>Go</button>
+            </tr>
+        </table>
+        <h3>Deals And Discounts</h3>
+                <li>Todays Deals</li>
+            <h3>New Arrivals</h3>
+                <li>Last 30 days</li>
+                <li>Last 90 days</li>
+                <li>Next 90 days</li>
+            <h3>English and Indian Languages</h3>
+                <li><input Name="Language" type="checkbox"><Label>English</Label></li>
+                <li><input Name="Language" type="checkbox"><Label>Hindi</Label></li>
+                <li><input Name="Language" type="checkbox"><Label>Marathi</Label></li>
+                <li><input Name="Language" type="checkbox"><Label>Tamil</Label></li>
+                <li><input Name="Language" type="checkbox"><Label>Telugu</Label></li>
+                <li><input Name="Language" type="checkbox"><Label>Malyalam</Label></li>
+                <li><input Name="Language" type="checkbox"><Label>Gujarati</Label></li>
+
+            <h3>Foreign Languages</h3>
+                <li><input Name="Language" type="checkbox"><Label>Afrikaans</Label></li>
+                <li><input Name="Language" type="checkbox"><Label>Arabic</Label></li>
+                <li><input Name="Language" type="checkbox"><Label>Catalan</Label></li>
+                <li><input Name="Language" type="checkbox"><Label>Danish</Label></li>
+                <li><input Name="Language" type="checkbox"><Label>Dutch</Label></li>
+                <li><input Name="Language" type="checkbox"><Label>French</Label></li>
+                <li><input Name="Language" type="checkbox"><Label>Japanese</Label></li>
+            
+            <h3>Availability</h3>
+            <li><input type="checkbox">Include Out of Stock</li>
+    </div>
+    <div class="line"></div>
+
+    <div class="books">
+        <!--Book 1-->
+        <div class="items">
+            <div class="image">
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/41uZwaw3k7L._AC_SX184_.jpg">
+            </div>
+            <div class="book">
+            <p class="bookname">FRIENDS, LOVERS AND THE BIG TERRIBLE THING </p>
+            <p class="bookdes"> by Matthew Perry | 6 August 2022</p>
+            <p class="bookrating"> ⭐⭐⭐⭐⭐</p>
+            <p class="bookname">₹569</p>
+            <p class="delivery">Get it by <b>Tomorrow, 22<sup>nd</sup> February</b></p>
+            <p class="delivery">FREE Delivery By Amazon</p>
+            </div>
+        </div>
+        <!--Book 2-->
+        <div class="items">
+            <div class="image">
+            <img src="https://m.media-amazon.com/images/I/41r6F2LRf8L._SX323_BO1,204,203,200_.jpg">
+            </div>
+            <div class="book">
+            <p class="bookname">The Psychology Of Money</p>
+            <p class="bookdes">by Morgan Housel  | 5 October 2017</p>
+            <p class="bookrating"> ⭐⭐⭐⭐</p>
+            <p class="bookname">₹210</p>
+            <p class="delivery">Get it by <b>Friday, 24<sup>th</sup> February</b></p>
+            <p class="delivery">FREE Delivery By Amazon</p>
+            </div>
+        </div>
+        <!--Book 3-->
+        <div class="items">
+            <div class="image">
+            <img src="https://m.media-amazon.com/images/I/4189XrRHhsL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg">
+            </div>
+            <div class="book">
+            <p class="bookname">Doglapan: The Hard Truth about Life and Start-Ups</p>
+            <p class="bookdes">by Ashneer Grover  | 10 December 2022</p>
+            <p class="bookrating"> ⭐⭐⭐⭐</p>
+            <p class="bookname">₹299</p>
+            <p class="delivery">Get it by <b>Tomorrow, 22<sup>nd</sup> February</b></p>
+            <p class="delivery">FREE Delivery By Amazon</p>
+            </div>
+        </div>
+        <!--Book 4-->
+        <div class="items">
+            <div class="image">
+            <img src="https://m.media-amazon.com/images/I/91msEbTletL._AC_UL600_FMwebp_QL65_.jpg">
+            </div>
+            <div class="book">
+            <p class="bookname">Bhagvad Gita As It Is English New Edition</p>
+            <p class="bookdes">by His Divine Grace A.C. Bhaktivedanta Swami Prabhupada | 1 January 2019</p>
+            <p class="bookrating">⭐⭐⭐⭐⭐</p>
+            <p class="bookname">₹300</p>
+            <p class="delivery">Get it by <b>Thursday, 23<sup>rd</sup> February</b></p>
+            <p class="delivery">FREE Delivery By Amazon</p>
+            </div>
+        </div>
+        <!--Book 5-->
+        <div class="items">
+            <div class="image">
+            <img src="https://m.media-amazon.com/images/I/814L+vq01mL._AC_UY327_FMwebp_QL65_.jpg">
+            </div>
+            <div class="book">
+            <p class="bookname">Ikigai: The Japanese secret to a long and happy life</p>
+            <p class="bookdes">by Francesc Miralles and Hector Garcia | 27 September 2017</p>
+            <p class="bookrating"> ⭐⭐⭐⭐⭐</p>
+            <p class="bookname">₹329</p>
+            <p class="delivery">Get it by <b>Tomorrow, 22<sup>nd</sup> February</b></p>
+            <p class="delivery">FREE Delivery By Amazon</p>
+            </div>
+        </div>
+        <!--Book 6-->
+        <div class="items">
+            <div class="image">
+            <img src="https://m.media-amazon.com/images/I/71Yb9hJXocL._AC_UL600_FMwebp_QL65_.jpg">
+            </div>
+            <div class="book">
+            <p class="bookname">Think Straight: Change your thoughts, Change your life</p>
+            <p class="bookdes">by Darius Foroux| 5 October 2017</p>
+            <p class="bookrating"> ⭐⭐⭐⭐</p>
+            <p class="bookname">₹109</p>
+            <p class="delivery">Get it by <b>Friday, 24<sup>th</sup> February</b></p>
+            <p class="delivery">FREE Delivery By Amazon</p>
+            </div>
+        </div>
+        <!--Book 7-->
+        <div class="items">
+            <div class="image">
+            <img src="https://m.media-amazon.com/images/I/51QnuLIY2uL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg">
+            </div>
+            <div class="book">
+            <p class="bookname">The Power of Your Subconscious Mind</p>
+            <p class="bookdes">by Joseph Murphy  | 10 December 2022</p>
+            <p class="bookrating"> ⭐⭐⭐⭐</p>
+            <p class="bookname">₹115</p>
+            <p class="delivery">Get it by <b>Tomorrow, 22<sup>nd</sup> February</b></p>
+            <p class="delivery">FREE Delivery By Amazon</p>
+            </div>
+        </div>
+        <!--Book 8-->
+        <div class="items">
+            <div class="image">
+            <img src="https://m.media-amazon.com/images/I/91Z1oMdVrEL.jpg">
+            </div>
+            <div class="book">
+            <p class="bookname">Nala Damyanti: An Eternal Tale from the Mahabharata</p>
+            <p class="bookdes">by His Divine Grace A.C. Bhaktivedanta Swami Prabhupada | 1 January 2019</p>
+            <p class="bookrating"> ⭐⭐⭐⭐⭐</p>
+            <p class="bookname">₹272</p>
+            <p class="delivery">Get it by <b>Thursday, 23<sup>rd</sup> February</b></p>
+            <p class="delivery">FREE Delivery By Amazon</p>
+            </div>
+        </div>
+    </div>
+</div> 
+<footer> 
+    <div class="bottom">
+      <div class="top"><a href="#Top">Back To Top</a></div> 
+      <div class="know_us">
+          <div class="know1"> 
+            <br>
+              <strong>Get to Know Us</strong><br>
+              About Us<br>
+              Careers<br>
+              Press Releases<br>
+              Amazon Science<br>
+          </div>
+          <div class="know2"> 
+            <br>
+              <strong>Connect with Us</strong><br>
+              Facebook<br>
+              Twitter<br>
+              Instagram<br>
+          </div>
+          <div class="know3"> 
+            <br>
+              <strong>Earn Money with Us</strong><br>
+              Sell on Amazon<br>
+              Sell under Amazon Accelerator<br>
+              Protect and Build Your Brand<br>
+              Amazon Global Selling<br>
+              Become an Affiliate<br>
+              Fulfilment by Amazon<br>
+              Advertise Your Products<br>
+              Amazon Pay on Merchants<br>
+          </div>
+          <div class="know4"> 
+            <br>
+              <strong>Let Us Help You</strong><br>
+              COVID-19 and Amazon<br>
+              Your Account<br>
+              Returns Centre<br>
+              100% Purchase Protection<br>
+              Amazon App Download<br>
+              Amazon Assistant Download<br>
+              Help<br>
+          </div>
+      </div>
+  </div>
+</footer>
+</body>
+</html>

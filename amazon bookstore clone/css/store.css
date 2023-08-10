@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+}
+.topdiv{
+    background-color:  #181823;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.sidenav{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+    font-size: 15px;
+}
+.sidenav h3, p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sidenav li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    font-weight: 30px;
+}
+.sidenav input[type=number]{
+    border: 1px solid;
+            border-style: groove;
+            border-radius: 4px;
+            width: 50px;
+            height: 30px;
+}
+button{
+    border: 1px solid;
+    border-style: groove;
+    border-radius: 4px;
+    height: 30px;
+    width: 50px;
+}
+.line{
+    border: 1px solid;
+    border-color: #c9b9b9;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.books{
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.items{
+    border-top: 1px solid;
+    border-color: #ebe2e2;
+    height: 250px;
+    width: 1100px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    height: 100%; 
+    padding: 10px;
+    margin-right: 10px;
+}
+.items:hover{
+    transition: 0.2s;
+    box-shadow: 0 0 5px 2px rgba(0,0,0,0.2);
+}
+.book{
+    display: flex;
+    flex-direction: column;
+}
+.bookname{
+    margin-top: 2px;
+    margin-bottom: -5px;
+    font-size: 20px;
+}
+.bookrating{
+    color: black;
+    margin-top: -1px;
+}
+.bookdes{
+    color: grey;
+}
+.delivery{
+    font-size: 15px;
+    margin-bottom: -10px;
+}
+.bottom
+{
+    width: 100%;
+}
+.top
+{
+    text-align: center; 
+    background-color:#004B91;
+}
+.top a
+{
+    text-decoration: none;
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    font-weight: 700;
+}
+.know_us
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300px;
+    background-color: #232F3E;
+    color: white; 
+}    

@@ -1,0 +1,46 @@
+.cart{ 
+    display: flex; 
+    flex-direction: row; 
+    background-color: #EAEDED;  
+    padding: 20px; 
+
+}  
+.m_table table{  
+    background-color: white;
+    width: 1000px;  
+} 
+.s_table{ 
+    display: flex; 
+    flex-direction: column; 
+    margin-left: 10px; 
+    width: 420px;  
+    align-self: flex-start; 
+} 
+.bottom
+{
+    width: 100%;
+}
+.top
+{
+    text-align: center; 
+    background-color: #004B91;
+}
+.top a
+{
+    text-decoration: none;
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    font-weight: 700;
+}
+.know_us
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300px;
+    background-color: #232F3E;
+    color: white; 
+    
+}
+  

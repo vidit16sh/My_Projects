@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Book Store</title>
+  
+
+<style>
+  .table{
+    display: flex;
+    flex-direction: row;
+  }
+  .leftcol{
+    display: flex;
+    flex-direction: column; 
+    margin: 10px 20px;  
+    width:20%;  
+  }  
+  .leftcol h3{ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+ .leftcol li{ 
+  list-style: none; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-weight: 30px;
+ }
+  .sep{
+    border-right: 1px solid;
+    border-color:#c9b9b9;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .id{ 
+    display: flex; 
+    flex-direction: column; 
+    float: right;  
+    vertical-align: top; 
+    width: auto;
+  } 
+   .idit{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: smooth;
+    width: 1000px;
+    margin: 25px 75px;
+  } 
+  .img{ 
+    display: flex; 
+    flex-direction: row;      
+    justify-content: space-between;  
+    margin-left: 20px; 
+  }   
+ .img2 h4,p{ 
+  font-size:18px; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;  
+ } 
+.vid{ 
+  display: flex;  
+  margin: 70px 400px;
+ } 
+ .chidimg img{  
+  height: 300px;  
+  margin: 20px 10px;
+  justify-content: space-between;
+ }
+ .bottom
+{
+    width: 100%;
+}
+.top
+{
+    text-align: center; 
+    background-color:#004B91;
+}
+.top a
+{
+    text-decoration: none;
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    font-weight: 700;
+}
+.know_us
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300px;
+    background-color: #232F3E;
+    color: white; 
+    
+}
+  
+</style>
+</head>
+<body>
+  <header>
+    <table style="background-color: #232F3E;width: 100%;">
+      <tr>
+        <td rowspan="2" width="25%">
+          <center><img src="logo4.png" alt="logo" width="80%">
+        </td>
+        <td colspan="5" width="75%"><input type="text" placeholder="Search your item here" style="width: 95%;"></td>
+      </tr>
+      <tr>
+        <td align="center">
+          <font face="Corbel" color="white" size="5"><a href="#" style="text-decoration: none;color:darkred;">HOME</a>
+          </font>
+        </td>
+        <td align="center">
+          <font face="Corbel" color="white" size="5"><a href="store.html" style="text-decoration: none;color: white;">STORE</a></font>
+        </td>
+        <td align="center">
+          <font face="Corbel" color="white" size="5"><a href="cart.html" style="text-decoration: none;color: white; ">CART</a>
+          </font>
+        </td>
+        <td align="center">
+          <font face="Corbel" color="white" size="5"><a href="sign_in.html" style="text-decoration: none;color: white;">SIGN UP</a>
+          </font>
+        </td>
+        <td align="center">
+          <font face="Corbel" color="white" size="5"><a href="pay.html" style="text-decoration: none;color: white;">PAYMENT</a>
+          </font>
+        </td>
+      </tr>
+    </table>
+  </header>
+  <hr>
+  <main>
+    <img
+      src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Books/072021/bookshprefresh/1500-x-300-header-BHP-Final.jpg"
+      alt="" style="width:max-content">
+    <div class="table">
+      <div class="leftcol">
+        <h3>New Arrivals</h3>
+        <li><input type="radio" name="gen" id="gen">Last 30 Days</li>
+        <li><input type="radio" name="gen">Last 90 Days</li> 
+        <li><input type="radio" name="gen">Next 90 days </li>
+        <h3> English & Indian Languages </h3>
+        <li><input type="checkbox">English <li>
+        <li><input type="checkbox">Hindi </li>
+        <li><input type="checkbox">Marathi</li>
+        <li><input type="checkbox">Tamil</li>
+        <li><input type="checkbox">Telug</li> 
+        <h3>Category</h3>
+          <li> Action & Adventure</li>
+          <li> Arts,Flim & photography</li>
+          <li> Biographies, Diaries & True Accounts </li>
+          <li> Business & Econimics </li>
+          <li> Comics & Mangas </li>
+          <li> Computers & Internet</li>
+          <li>Engineering </li>
+          <li>Science Fiction & Fantasy </li>
+          <li>Sports</li>
+          <li>Religion & Spirituality </li>
+          <li>travel & Tourism </li> 
+          <li>History & History Fiction</li>
+         <li>Humour</li>
+         <li>Language, Linguistics & Writing </li>
+         <li>Law</li>
+         <li>Literature & Fiction </li>
+         <li>Maps & Atlases </li>
+         <li>Medicine and Health Sciences Textbooks </li>
+         <li>Politics</li>
+         <li>Romance</li>
+         <li>School Books</li>
+         <li>Technology & Medicine</li>
+         <li>Higher Education Textbooks</li>
+         <li>Textbooks & Study Guides</li>  
+         <h3> Customer Review </h3> 
+         <li>⭐⭐⭐⭐⭐</li> 
+         <li>⭐⭐⭐⭐&up</li> 
+         <li>⭐⭐⭐  &up</li> 
+         <li>⭐⭐    &up</li> 
+         <li>⭐      &up</li> 
+         <h3>Price</h3>
+         <li> Under ₹100 </li>
+         <li> ₹100 - ₹200 </li>
+         <li>₹200 - ₹500 </li>
+         <li> ₹500 - ₹1,000 </li>
+         <li>Over ₹1,000 </li>
+      </div> 
+      <div class="sep"></div>
+      <div class="id">
+        <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><strong><center>Top picks for you this week</center></strong></h2> 
+        <div class="idit">
+          <div class="idit2"><img src="img3.png" alt="14"></div>
+          <div class="idit2"><img src="https://m.media-amazon.com/images/G/31/img21/Books/bookstore/2023/giftabook-770x375._CB612442933_.jpg" alt="2"></div>
+          <div class="idit2"><img src="https://m.media-amazon.com/images/G/31/img21/Books/bookstore/2023/Holi_special_Books_store_3._CB612445583_.png"></div>
+          <div class="idit2"><img src="https://m.media-amazon.com/images/G/31/img21/Books/merchbx/giveaway_1._CB614845555_.png"></div>
+      </div> 
+      <center><h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> Books Hot off The press </h2></center>
+    <div class="img">
+        <div class="img2"><IMG src="https://images-eu.ssl-images-amazon.com/images/I/41cqBP3CKoL._AC_SX184_.jpg" alt="10"><h4
+          ">The Indian Metropolis</h4><p>Feroze Varun Gandhi </p><p> Hardcover </p>
+    <p> ₹1,107<sup>.00</sup>&nbsp;&nbsp;<s>₹1,500.00</s></p>
+    <p>⭐⭐⭐⭐(38)</p></IMG></div>
+          <div class="img2"><IMG src="https://images-eu.ssl-images-amazon.com/images/I/41ka4efHjBL._AC_SX184_.jpg" alt="10"><h4
+            ">8 Rules of Love : How</h4><h4>to Find it, keep it,a...</h4><p>Jay Shetty</p><p>Paperback</p>
+      <p> ₹396<sup>.00</sup>&nbsp;&nbsp;<s>₹499.00</s></p>
+      <p>⭐⭐⭐⭐⭐(101)</p></IMG></div>
+          <div class="img2"><IMG src="https://images-eu.ssl-images-amazon.com/images/I/511dLN7ditL._AC_SX184_.jpg" alt="10"><h4
+            ">The Stolen Heir:A</h4><h4>Novel of Elfhame</h4><p>HOLLY BLACK</p><p>Paperback</p>
+      <p>398<sup>.00</sup>&nbsp;&nbsp;<s>499.00</s></p>
+      <p>⭐⭐⭐⭐(38)</p></IMG></div>
+          <div class="img2"><IMG src="https://images-eu.ssl-images-amazon.com/images/I/51-I9slpXjL._AC_SX184_.jpg" alt="10"><h4
+            ">Five Survive : AN </h4><h4>INSTANT NUMBER</h4><p>Holly Jackson</p><p>Papperback </p>
+      <p>505<sup>.00</sup>&nbsp;&nbsp;<s>624.00</s></p>
+      <p>⭐⭐⭐(50)</p></IMG></div> 
+      <div class="img2"><IMG src="https://images-eu.ssl-images-amazon.com/images/I/41ka4efHjBL._AC_SX184_.jpg" alt="10"><h4
+        ">8 Rules of Love : How</h4><h4>to Find it, keep it,a...</h4><p>Jay Shetty</p><p>Paperback</p>
+       <p> ₹396<sup>.00</sup>&nbsp;&nbsp;<s>₹499.00</s></p>
+       <p>⭐⭐⭐⭐⭐(101)</p></IMG></div> 
+       <div class="img2"><IMG src="https://images-eu.ssl-images-amazon.com/images/I/41cqBP3CKoL._AC_SX184_.jpg" alt="10"><h4
+        ">The Indian Metropolis</h4><p>Feroze Varun Gandhi </p><p> Hardcover </p>
+       <p> ₹1,107<sup>.00</sup>&nbsp;&nbsp;<s>₹1,500.00</s></p>
+       <p>⭐⭐⭐⭐(38)</p></IMG></div>
+    </div> 
+        <div class="vid">
+          <video src="https://m.media-amazon.com/images/I/D1Ce6IWa69L.mp4" controls> </video> 
+          </div>  
+              <center><h2 style="font-size: x-large;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> Everything for your Academics </h2></center> 
+              <div class="ac">  
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Books/072021/bookshprefresh/1500-X-300-School.jpg" alt="1">
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Books/072021/bookshprefresh/1500-X-300-Exam-Preparations.jpg" alt="2">  
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Books/072021/bookshprefresh/1500-X-300-University.jpg" alt="3">
+              </div> 
+              <center><h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> Child & Young Adults </h2></center> 
+              <div class="child"> 
+               <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Books/072021/bookshprefresh/1500-X-300--Books-homeapage-Children-revised.jpg" alt="1" style="width:50
+               "> </div>  
+               <div class="chidimg">  
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Books/072021/bookshprefresh/680-X-680-Children-books-tile_01.jpg"> 
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Books/072021/bookshprefresh/680-X-680-Children-books-tile_02.jpg"> 
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Books/072021/bookshprefresh/680-X-680-Children-books-tile_03.jpg"> 
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Books/072021/bookshprefresh/680-X-680-Children-books-tile_04.jpg"> 
+                </div>
+        </div> 
+  </div>  
+ </main>   
+ <footer> 
+  <div class="bottom">
+    <div class="top"><a href="#Top">Back To Top</a></div> 
+    <div class="know_us">
+        <div class="know1"> 
+          <br>
+            <strong>Get to Know Us</strong><br>
+            About Us<br>
+            Careers<br>
+            Press Releases<br>
+            Amazon Science<br>
+        </div>
+        <div class="know2"> 
+          <br>
+            <strong>Connect with Us</strong><br>
+            Facebook<br>
+            Twitter<br>
+            Instagram<br>
+        </div>
+        <div class="know3"> 
+          <br>
+            <strong>Earn Money with Us</strong><br>
+            Sell on Amazon<br>
+            Sell under Amazon Accelerator<br>
+            Protect and Build Your Brand<br>
+            Amazon Global Selling<br>
+            Become an Affiliate<br>
+            Fulfilment by Amazon<br>
+            Advertise Your Products<br>
+            Amazon Pay on Merchants<br>
+        </div>
+        <div class="know4"> 
+          <br>
+            <strong>Let Us Help You</strong><br>
+            COVID-19 and Amazon<br>
+            Your Account<br>
+            Returns Centre<br>
+            100% Purchase Protection<br>
+            Amazon App Download<br>
+            Amazon Assistant Download<br>
+            Help<br>
+        </div>
+    </div>
+</div>
+ </footer>
+</body>
+</html>
